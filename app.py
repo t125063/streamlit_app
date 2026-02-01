@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from streamlit_echarts import st_echarts
 
 # --- ページ設定 ---
 st.set_page_config(page_title="日本の人口推移アプリ", layout="wide")
